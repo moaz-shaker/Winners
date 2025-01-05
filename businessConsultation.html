@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Winners Advisory Home Services</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="Winners Advisory Home Services">
+    <meta content="" name="Consultation and Training Home Services">
+    <link rel="icon" href="img/winnerslogo.png" type="image/icon type">
+
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Add custom CSS in the head section -->
+</head>
+
+<body>
+     <!-- Spinner Start -->
+     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner">
+            <img src="img/winnerslogo.png" alt="Logo" class="animated-logo">
+        </div>
+    </div>
+    <!-- Spinner End -->
+    <style>
+        .animated-logo {
+            width: 100px;
+            height: 100px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <img class = "logo" src="img/winnerslogo.png" alt="Logo">
+            <!-- <a href="index.html" class="navbar-brand p-0"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link active" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                    <ul class="dropdown-menu m-0">
+                        <li><a href="businessConsultation.html" class="dropdown-item">Business Consultation</a></li>
+                        <li><a href="Trainning.html" class="dropdown-item">Training and Development</a></li>
+                        <li><a href="recruitment.html" class="dropdown-item">Recruitment Services</a></li>
+                        <li><a href="out.html" class="dropdown-item">HR Outsource Services</a></li>
+                    </ul>
+                </li>
+                    <a href="client.html" class="nav-item nav-link">Clients</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-3 text-white animated fadeInUp fw-bold">Business Consultation</h1>
+                    <nav aria-label="breadcrumb animated fadeInUp">
+                        <ol class="breadcrumb justify-content-center mb-0">
+                            <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                            <li class="breadcrumb-item"><a href="service.html" class="text-white">Services</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Business Consultation</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+<!-- Services Grid Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary text-uppercase">Our Expertise</h5>
+            <h1 class="mb-0">Comprehensive Business Solutions</h1>
+            <p class="text-muted mt-3">Tailored consulting services to drive your business forward</p>
+        </div>
+        <div class="row g-5">
+    
+            <!-- HR Consultation -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/19.png" alt="HR Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Comprehensive HR solutions including recruitment, training, and organizational development</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">People & Culture (HR)</h4>
+                        <p class="mb-0 text-muted">Strategic HR solutions for organizational excellence</p>
+                    </div>
+                </div>
+            </div> 
+
+            <!-- Digital Transformation -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/18.png" alt="Digital Transformation">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Modernize your business with cutting-edge digital solutions and technology transformation</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Digital Transformation</h4>
+                        <p class="mb-0 text-muted">Modernize your business with digital solutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Corporate Governance -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/17.png" alt="Corporate Governance">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Establish robust governance frameworks and policies for sustainable business growth</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Corporate Governance</h4>
+                        <p class="mb-0 text-muted">Building strong organizational frameworks</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PR Consulting -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/16.png" alt="PR Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Strategic public relations and communication solutions for brand enhancement</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">PR Consulting</h4>
+                        <p class="mb-0 text-muted">Strategic communication solutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Process -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/15.png" alt="Business Process">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Streamline operations and enhance efficiency through process optimization</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Business Process</h4>
+                        <p class="mb-0 text-muted">Optimizing operational efficiency</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Environmental Consulting -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/14.png" alt="Environmental Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Sustainable business practices and environmental compliance solutions</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Environmental Consulting</h4>
+                        <p class="mb-0 text-muted">Sustainable business solutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Procurement Consulting -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/13.png" alt="Procurement Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Optimize your sourcing strategy and supply chain management</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Procurement Consulting</h4>
+                        <p class="mb-0 text-muted">Strategic sourcing solutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Management Consulting -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/12.png" alt="Management Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Expert guidance for improved management and organizational performance</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Management Consulting</h4>
+                        <p class="mb-0 text-muted">Expert business guidance</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- E-commerce Consulting -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/11.png" alt="E-commerce Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Comprehensive e-commerce strategies and digital retail solutions</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">E-commerce Consulting</h4>
+                        <p class="mb-0 text-muted">Digital retail excellence</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compliance Consulting -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/10.png" alt="Compliance Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Ensure regulatory compliance and risk management solutions</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Compliance Consulting</h4>
+                        <p class="mb-0 text-muted">Regulatory compliance solutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Financial and Auditing -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/9.png" alt="Financial and Auditing">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Comprehensive financial analysis and auditing services</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Financial & Auditing</h4>
+                        <p class="mb-0 text-muted">Comprehensive financial solutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leadership Consulting -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/4.png" alt="Leadership Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Develop strong leadership skills and organizational culture</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Leadership Consulting</h4>
+                        <p class="mb-0 text-muted">Developing effective leaders</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Innovation Consulting -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.3s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/5.png" alt="Innovation Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Foster innovation and creative problem-solving strategies</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Innovation Consulting</h4>
+                        <p class="mb-0 text-muted">Driving business innovation</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marketing Consulting -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.4s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/4.png" alt="Marketing Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Develop effective marketing strategies and brand positioning</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Marketing Consulting</h4>
+                        <p class="mb-0 text-muted">Strategic marketing solutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy Consulting -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.5s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/20.png" alt="Strategy Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Develop and implement effective business strategies</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Strategy Consulting</h4>
+                        <p class="mb-0 text-muted">Business strategy development</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feasibility Studies -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.6s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/3.png" alt="Feasibility Studies">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Comprehensive project viability and market analysis</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Feasibility Studies</h4>
+                        <p class="mb-0 text-muted">Project viability analysis</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Taxation Services -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.7s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/2.png" alt="Taxation Services">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Expert tax planning and compliance services</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Taxation Services</h4>
+                        <p class="mb-0 text-muted">Tax planning & compliance</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sales Consulting -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.8s">
+                <div class="service-item bg-white rounded shadow-sm h-100">
+                    <div class="service-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/1.png" alt="Sales Consulting">
+                        <div class="service-overlay bg-primary">
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="service-overlay-text text-center text-white p-4">
+                                    <p>Boost revenue through effective sales strategies</p>
+                                    <!-- <a href="contact.html" class="btn btn-light px-4 py-2 mt-2">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content text-center p-4">
+                        <h4 class="mb-3">Sales Consulting</h4>
+                        <p class="mb-0 text-muted">Revenue growth strategies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+
+<!-- Client Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background-color: #f8f9fa;">
+    <div class="container py-5">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary text-uppercase">Our Clients</h5>
+            <h2 class="mb-0">Trusted by Industry Leaders</h2>
+        </div>
+        <div class="bg-white p-4 rounded shadow-sm">
+            <div class="owl-carousel vendor-carousel">
+                <img src="img/c1.jpg" alt="">
+                <img src="img/c2.png" alt="">
+                <img src="img/c3.png" alt="">
+                <img src="img/c4.png" alt="">
+                <img src="img/c5.png" alt="">
+                <img src="img/c6.png" alt="">
+                <img src="img/c7.png" alt="">
+                <img src="img/c8.png" alt="">
+                <img src="img/c10.png" alt="">
+                <img src="img/c11.png" alt="">
+                <img src="img/c12.png" alt="">
+                <img src="img/c13.png" alt="">
+                <img src="img/c14.png" alt="">
+                <img src="img/c15.png" alt="">
+                <img src="img/c16.png" alt="">
+                <img src="img/c17.png" alt="">
+                <img src="img/c18.png" alt="">
+                <img src="img/c19.png" alt="">
+                <img src="img/c20.png" alt="">
+                <img src="img/c21.png" alt="">
+                <img src="img/c22.png" alt="">
+                <img src="img/c9.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Client End -->
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row g-5">
+            <!-- Logo and Email Section -->
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center h-0 W-10 bg-header p-2 M-2">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/winnerslogo.png" alt="Winners Logo" style="width: 200px; max-width: 200px; max-height: 100px; height: 100px; margin: auto;">
+                    </a>
+                    <form action="mailto:info@hrwinners.com" class="mt-3 w-100 footer-form">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                            <button class="btn btn-dark">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Contact and Links Section -->
+            <div class="col-lg-9 col-md-6">
+                <div class="row g-5">
+                    <!-- Get In Touch Section -->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="text-light mb-0">Get In Touch</h3>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-geo-alt text-primary me-2"></i>
+                            <p class="mb-0">Dokki, Cairo, Egypt</p>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-geo-alt text-primary me-2"></i>
+                            <p class="mb-0">Nasr City, Cairo, Egypt</p>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-envelope-open text-primary me-2"></i>
+                            <p class="mb-0">info@hrwinners.com</p>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-telephone text-primary me-2"></i>
+                            <p class="mb-0">+2 0102 775 3578</p>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-telephone text-primary me-2"></i>
+                            <p class="mb-0">+20 100 492 8734</p>
+                        </div>
+                        <div class="d-flex mt-4">
+                            <a class="btn btn-primary btn-square me-2" href="https://www.facebook.com/share/g/15Nsex26Dk/"><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-primary btn-square me-2" href="https://www.linkedin.com/company/hr-winners/"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        </div>
+                    </div>
+                    <!-- Quick Links Section -->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="text-light mb-0">Quick Links</h3>
+                        </div>
+                        <div class="link-animated d-flex flex-column justify-content-start">
+                            <a class="text-light mb-2 footer-link" href="index.html">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>Home
+                            </a>
+                            <a class="text-light mb-2 footer-link" href="about.html">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>About Us
+                            </a>
+                            <a class="text-light mb-2 footer-link" href="contact.html">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team
+                            </a>
+                            <a class="text-light footer-link" href="https://wa.link/lunymi">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>Contact Us
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Services Links Section -->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="text-light mb-0">Services Links</h3>
+                        </div>
+                        <div class="link-animated d-flex flex-column justify-content-start">
+                            <a class="text-light mb-2 footer-link" href="businessConsultation.html">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>Business Consultation
+                            </a>
+                            <a class="text-light mb-2 footer-link" href="Trainning.html">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>Training & Development
+                            </a>
+                            <a class="text-light mb-2 footer-link" href="recruitment.html">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>Recruitment services
+                            </a>
+                            <a class="text-light footer-link" href="out.html">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>HR Outsource Services
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Copyright Section -->
+<div class="container-fluid text-white" style="background: #01222c; margin-bottom: -50px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex align-items-center justify-content-center" style="height: 50px; margin-bottom: 20px;">
+                    <p class="mb-0">&copy; <a class="text-white border-bottom copyright-link" href="index.html">
+                        Winners Advisory Home Services
+                    </a>. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Back to Top -->
+    <a href="index.html" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Add this right before the Back to Top button -->
+    <a href="https://wa.link/lunymi" class="btn btn-lg btn-success btn-lg-square rounded whatsapp-btn" target="_blank" style="margin-bottom: 0;">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- Add this JavaScript before the closing body tag -->
+    <script>
+        // Show/Hide WhatsApp button on scroll
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 200) {
+                document.querySelector('.whatsapp-btn').classList.add('show');
+            } else {
+                document.querySelector('.whatsapp-btn').classList.remove('show');
+            }
+        });
+    </script>
+    
+</body>
+
+</html>
